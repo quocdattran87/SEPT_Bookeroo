@@ -1,0 +1,8 @@
+com/rmit/sept/bk_orderservices/model/Order$1.class
+com/rmit/sept/bk_orderservices/model/Order$OrderBuilder.class
+com/rmit/sept/bk_orderservices/security/SecurityConfig.class
+com/rmit/sept/bk_orderservices/web/OrderController.class
+com/rmit/sept/bk_orderservices/ms_orders.class
+com/rmit/sept/bk_orderservices/repositories/OrderRepository.class
+com/rmit/sept/bk_orderservices/model/Order.class
+com/rmit/sept/bk_orderservices/services/OrderService.class

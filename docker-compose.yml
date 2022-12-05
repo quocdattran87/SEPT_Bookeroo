@@ -1,0 +1,83 @@
+version: '3.1'
+
+services:
+  website:
+    image: 'website'
+    build:
+      context: ./FrontEnd/myfirstapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - bookservice
+      - orderservice
+      - loginservice
+      - reviewservice
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+
+      
+  bookservice:
+    image: 'bookservice'
+    build:
+      context: ./BackEnd/bookmicroservices
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/bookeroo
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  loginservice:
+    image: 'loginservice'
+    build:
+      context: ./BackEnd/loginmicroservices
+    ports:
+      - "8081:8081"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/bookeroo
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      
+  orderservice:
+    image: 'orderservice'
+    build:
+      context: ./BackEnd/ordermicroservices
+    ports:
+      - "8082:8082"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/bookeroo
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  reviewservice:
+    image: 'reviewservice'
+    build:
+      context: ./BackEnd/reviewmicroservices
+    ports:
+      - "8083:8083"
+    depends_on:
+      - postgres
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/bookeroo
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+
+  postgres:
+    image: "postgres"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+      - POSTGRES_DB=bookeroo

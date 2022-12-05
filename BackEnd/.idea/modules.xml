@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BackEnd.iml" filepath="$PROJECT_DIR$/.idea/BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookmicroservices/bookmicroservices.iml" filepath="$PROJECT_DIR$/bookmicroservices/bookmicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginmicroservices/loginmicroservices.iml" filepath="$PROJECT_DIR$/loginmicroservices/loginmicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ordermicroservices/ordermicroservices.iml" filepath="$PROJECT_DIR$/ordermicroservices/ordermicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reviewmicroservices/reviewmicroservices.iml" filepath="$PROJECT_DIR$/reviewmicroservices/reviewmicroservices.iml" />
+    </modules>
+  </component>
+</project>

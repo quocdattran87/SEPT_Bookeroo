@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bookmicroservices" />
+        <module name="loginmicroservices" />
+        <module name="ordermicroservices" />
+        <module name="reviewmicroservices" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bookmicroservices" target="1.8" />
+      <module name="loginmicroservices" target="1.8" />
+      <module name="newmicroservice" target="11" />
+      <module name="ordermicroservices" target="1.8" />
+      <module name="reviewmicroservices" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookmicroservices" options="-parameters" />
+      <module name="loginmicroservices" options="-parameters" />
+      <module name="newmicroservice" options="-parameters" />
+      <module name="ordermicroservices" options="-parameters" />
+      <module name="reviewmicroservices" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/ms_orders.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/security/SecurityConfig.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/model/Order.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/services/OrderService.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/web/OrderController.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/ordermicroservices/src/main/java/com/rmit/sept/bk_orderservices/repositories/OrderRepository.java

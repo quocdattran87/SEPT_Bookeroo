@@ -1,0 +1,10 @@
+com/rmit/sept/bk_bookservices/repositories/BookRepository.class
+com/rmit/sept/bk_bookservices/ms_books.class
+com/rmit/sept/bk_bookservices/model/Book$1.class
+com/rmit/sept/bk_bookservices/security/SecurityConfig.class
+com/rmit/sept/bk_bookservices/services/BookService.class
+com/rmit/sept/bk_bookservices/services/MapValidationErrorService.class
+com/rmit/sept/bk_bookservices/configurations/BookConfig.class
+com/rmit/sept/bk_bookservices/model/Book$BookBuilder.class
+com/rmit/sept/bk_bookservices/web/BookController.class
+com/rmit/sept/bk_bookservices/model/Book.class

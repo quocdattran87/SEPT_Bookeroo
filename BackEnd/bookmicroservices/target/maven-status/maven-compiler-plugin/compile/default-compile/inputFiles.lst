@@ -1,0 +1,8 @@
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/web/BookController.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/model/Book.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/security/SecurityConfig.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/ms_books.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/services/BookService.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/configurations/BookConfig.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/repositories/BookRepository.java
+/Users/quoctran/Documents/GitHub/SEPT2021_MajorProject/BackEnd/bookmicroservices/src/main/java/com/rmit/sept/bk_bookservices/services/MapValidationErrorService.java
