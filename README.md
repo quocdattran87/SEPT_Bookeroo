@@ -1,7 +1,7 @@
 # SEPT 2021 Major Project
 
 
-Run the project.
+Run the project
 
 Run the BackEnd folder in Intellij and run each of the microservices.
     bookmicroservice
