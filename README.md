@@ -1,4 +1,4 @@
-# RMIT SEPT 2021 Major Project
+# SEPT 2021 Major Project
 
 
 Run the project.
@@ -10,21 +10,6 @@ Run the BackEnd folder in Intellij and run each of the microservices.
     reviewmicroservice
 
 Run the FrontEnd in visual studio use npm start to run the website.
-
-
-
-
-## Members
-* Adam Wuei Cherng Hannington-Chen          s3720247
-* Haopeng Zhou                                               s3555521
-* Quoc Tran                                                      s3827826
-* Yuehan Chen                                                 s3714653
-
-## Records
-
-* Github repository : https://github.com/s3827826/SEPTGROUP5
-* jira Board : https://sept-group5.atlassian.net/jira/software/projects/SEPT/boards/1
-* Google Docs: https://drive.google.com/drive/u/1/folders/1Ep5PgnF30ErBfeH5HLO61SDaGIsNL2_3
 
 	
 ## Code documentation - Release 0.1.0 - date
